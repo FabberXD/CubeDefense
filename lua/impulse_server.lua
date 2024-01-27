@@ -9,12 +9,15 @@ local impulse = function(onEvent)
 			if t.clients[event.Sender.Username] == nil then
 				t.clients[event.Sender.Username] = {
 					handshake_id = event.id,
-					events = { event },
+					events = {},
 				}
+			else
+				t.clients[event.Sender.Username].handshake_id = event.id
 			end
 		end
 
 		if t.clients[event.Sender.Username] ~= nil and t.clients[event.Sender.Username].id == event.id then
+			table.insert(t.clients[event.Sender.Username].events, event)
 			t:onEvent(event)
 		end
 	end
