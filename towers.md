@@ -1,7 +1,7 @@
 # Towers 
-* Scout (FREE) 
-* Sniper (25 M) 
-* Rifler (100 M) 
+* Scout (FREE) [nanskip.td_scout]
+* Sniper (25 M) [nanskip.td_sniper]
+* Rifler (100 M) [nanskip.td_rifler]
 * Hunter (150 M) 
 * Heal Station (250 M) 
 * Gangster (300 M) 
