@@ -1,8 +1,8 @@
 # Enemies 
-* Zombie (4 HP, 0.5 T/Sec) 
-* Fast Zombie (3 HP, 1 T/Sec) 
-* Iron Zombie (9 HP, 0.25 T/Sec) 
-* Fire Zombie (10 HP, 0.4 T/Sec) 
+* Zombie (4 HP, 0.5 T/Sec) [nanskip.td_zombie]
+* Fast Zombie (3 HP, 1 T/Sec) [nanskip.td_fast_zombie]
+* Iron Zombie (9 HP, 0.25 T/Sec) [nanskip.td_iron_zombie]
+* Fire Zombie (10 HP, 0.4 T/Sec) [nanskip.td_fire_zombie]
 * Big Zombie (50 HP, 0.15 T/Sec) 
 * Invisible Zombie (10 HP, 0.4 T/Sec) (Invisible) 
 * Wizard Zombie (40 HP, 0.3 T/Sec) (Spawner; Invisible) 
