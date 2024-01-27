@@ -1,5 +1,8 @@
 local map = function(config)
 	local t = {}
+	if config == nil then
+		config = {}
+	end
 
 	local defaultConfig = {
 		name = "",

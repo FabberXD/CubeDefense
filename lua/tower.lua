@@ -1,5 +1,8 @@
 local tower = function(config)
 	local t = {}
+	if config == nil then
+		config = {}
+	end
 
 	local defaultConfig = {
 		base_damage = 1,

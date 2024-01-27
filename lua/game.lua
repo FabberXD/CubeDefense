@@ -1,5 +1,8 @@
 local game = function(config)
 	local t = {}
+	if config == nil then
+		config = {}
+	end
 
 	local defaultConfig = {
 		id = 0,

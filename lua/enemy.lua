@@ -1,5 +1,8 @@
 local enemy = function(config)
 	local t = {}
+	if config == nil then
+		config = {}
+	end
 
 	local defaultConfig = {
 		base_health = 1,
