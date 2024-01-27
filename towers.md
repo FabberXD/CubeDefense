@@ -20,15 +20,3 @@
 * Railgunner (1500 M) 
 * UFO (5K M) 
 * Time Machine (10K M) 
- 
-# lua 
-{ 
-	"id": "scout", 
-	"base_damage": 1, 
-	"base_burst": 1, 
-	"reload_time": 1, 
-	"attributes": {}, 
-	"on_place" = function(tower), 
-	"on_shoot" = function(tower, enemy), 
-	"tick" = function(tower, dt) 
-} 
