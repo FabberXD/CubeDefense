@@ -11,6 +11,9 @@ local impulse = function()
 		local connection = {}
 		connection.handshake_id = HANSHAKEID
 		connection.send = function(event)
+			if event.action == nil then
+				error("IMPULSE: Action is nil")
+			end
 			event.id = HANSHAKEID
 			event:SendTo(Server)
 		end
