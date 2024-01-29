@@ -38,11 +38,6 @@ local impulse = function(onEvent, debug)
 		end
 	end
 
-	local connection = {}
-	connection.listener = LocalEvent:Listen(LocalEvent.Name.DidReceiveEvent, function(event)
-		t:connectionCallback(event)
-	end)
-
 	return t
 end
 return impulse
