@@ -1,3 +1,5 @@
+possibleAttributes = {}
+
 local tower = function(config)
 	local t = {}
 	if config == nil then
@@ -22,6 +24,15 @@ local tower = function(config)
 	for key, value in pairs(defaultConfig) do
 		t[key] = config[key] or defaultConfig[key]
 	end
+
+	t.checkAttributes = function(self)
+		for key, value in pairs(self.attributes) do
+			if possibleAttributes[key] == nil then
+				error("TOWER: Invalid attribute '" .. key .. "' in tower " .. self.id)
+			end
+		end
+	end
+	t:checkAttributes()
 
 	t.recalculateStats = function(self)
 		self.damage = self.base_damage * (self.damage_multiplier or 1)
