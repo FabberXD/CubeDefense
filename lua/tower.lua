@@ -31,6 +31,7 @@ local tower = function(config)
 		self.radius = self.base_radius * (self.radius_multiplier or 1)
 	end
 	t.reload = t.reload_time
+	t.burst_reload = 0
 	t:recalculateStats()
 
 	return t
