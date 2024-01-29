@@ -5,6 +5,8 @@ local tower = function(config)
 	end
 
 	local defaultConfig = {
+		id = 0,
+		name = "",
 		base_damage = 1,
 		base_burst = 1,
 		base_reload_time = 1,
