@@ -2,7 +2,7 @@ local client = function()
 	local t = {}
 
 	t.impulse = impulse()
-	t.OnPlayerJoin = t.impulse.startConnection
+	Client.OnPlayerJoin = t.impulse.startConnection
 
 	Camera:SetModeFree()
 	World:AddChild(Player)
