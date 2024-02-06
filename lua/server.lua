@@ -1,9 +1,5 @@
 local server = function()
-	local t = {}
-
-	t.impulse = impulse()
-	t.DidRecieveEvent = t.impulse.connectionCallback
-
-	return t
+	impulse = impulse()
+	Server.DidRecieveEvent = impulse.connectionCallback
 end
 return server
