@@ -1,4 +1,4 @@
-local client = function(impulse, game, map, tower, enemy, attributes)
+local client = function()
 	local t = {}
 
 	t.impulse = impulse()

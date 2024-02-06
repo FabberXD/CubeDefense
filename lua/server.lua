@@ -1,4 +1,4 @@
-local server = function(impulse, game, map, tower, enemy, towers, maps, attributes)
+local server = function()
 	local t = {}
 
 	t.impulse = impulse()
